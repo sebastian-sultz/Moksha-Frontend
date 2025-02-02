@@ -1,5 +1,5 @@
 import { BsFillMusicPlayerFill } from "react-icons/bs";
-import { FaPlayCircle } from "react-icons/fa";
+
 import { Carousel } from "flowbite-react";
 import Tips from "./Tips";
 import { useState, useEffect, useRef } from 'react';
