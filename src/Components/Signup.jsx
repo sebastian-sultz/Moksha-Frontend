@@ -64,11 +64,11 @@ function Signup() {
 
         <>
 
-       <div className="relative p-16 bg-bgcolor flex justify-center items-center">
-             <div className="absolute inset-0 bg-bgcolor opacity-50"></div>
-             
-             <div className="relative  bg-bgcolor bg-opacity-60 border-2 border-prim p-10 rounded-xl backdrop-blur-md w-full sm:w-96">
-               <h1 className="text-center font-libre text- text-3xl font-medium mb-8">User Signup</h1>
+<div className="relative py-16 px-3 bg-bgcolor flex justify-center items-center">
+      <div className="absolute inset-0 bg-bgcolor opacity-50"></div>
+      
+      <div className="relative  bg-bgcolor bg-opacity-60 border-2 border-prim p-6 rounded-xl backdrop-blur-md w-full sm:w-96 md:p-10">
+        <h1 className="text-center font-libre text- text-3xl font-medium mb-8">User Signup</h1>
        
                <form onSubmit={handleSignup} className="grid gap-7 ">
                  <div className="relative grid grid-cols-1 gap-2 border-b-2 border-prim">
@@ -79,7 +79,7 @@ function Signup() {
                        type="text"
                        name="name"
                        autoFocus
-                       placeholder="Enter your name..."
+                       placeholder="Enter Name..."
                        value={signupInfo.name}
                        className="w-full p-2 text-gray-800 bg-transparent border-none focus:outline-none focus:ring-0 focus:border-none focus:placeholder-transparent"
        
@@ -95,7 +95,7 @@ function Signup() {
                        onChange={handleChange}
                        type="email"
                        name="email"
-                       placeholder="Enter your email..."
+                       placeholder="Enter Email..."
                        value={signupInfo.email}
                        className="w-full p-2 text-gray-800 bg-transparent border-none focus:outline-none focus:ring-0 focus:border-none focus:placeholder-transparent"
        
@@ -112,7 +112,7 @@ function Signup() {
                        onChange={handleChange}
                        type={showPassword ? "text" : "password"}
                        name="password"
-                       placeholder="Enter your password..."
+                       placeholder="Enter Password..."
                        value={signupInfo.password}
                      className="w-full p-2 text-gray-800 bg-transparent border-none focus:outline-none focus:ring-0 focus:border-none focus:placeholder-transparent"
        
