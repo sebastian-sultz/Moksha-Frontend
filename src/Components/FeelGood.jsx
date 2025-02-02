@@ -39,7 +39,7 @@ const FeelGood = () => {
                 </div>
             </div>
 
-            <div className="p-7">
+            <div className="pt-2 pb-6">
                 <p className="text-center leading-tight font-normal text-base md:text-lg md:leading-snug md:text-justify">
 
                     <p className='pb-3'>Take a moment to breathe and reconnect with yourself. Here, you’ll find soothing melodies, simple yet powerful mental health tips, and thought-provoking quotes that can help shift your perspective and bring calm to your day.

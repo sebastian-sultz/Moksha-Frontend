@@ -31,7 +31,7 @@ function Login() {
             return handleError('email and password are required')
         }
         try {
-            const url = `http://52.66.243.209/api/auth/login`;
+            const url = `http://localhost:8080/auth/login`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
@@ -68,10 +68,10 @@ function Login() {
     };
     return (
 <>
-<div className="relative p-16 bg-bgcolor flex justify-center items-center">
+<div className="relative py-16 px-3 bg-bgcolor flex justify-center items-center">
       <div className="absolute inset-0 bg-bgcolor opacity-50"></div>
       
-      <div className="relative  bg-bgcolor bg-opacity-60 border-2 border-prim p-10 rounded-xl backdrop-blur-md w-full sm:w-96">
+      <div className="relative  bg-bgcolor bg-opacity-60 border-2 border-prim p-6 rounded-xl backdrop-blur-md w-full sm:w-96 md:p-10">
         <h1 className="text-center font-libre text- text-3xl font-medium mb-8">User Login</h1>
 
         <form onSubmit={handleLogin} className="grid gap-7 ">
@@ -82,7 +82,7 @@ function Login() {
                 onChange={handleChange}
                 type="email"
                 name="email"
-                placeholder="Enter your email..."
+                placeholder="Enter Email..."
                 value={loginInfo.email}
                 className="w-full p-2 text-gray-800 bg-transparent border-none focus:outline-none focus:ring-0 focus:border-none focus:placeholder-transparent"
 
@@ -99,7 +99,7 @@ function Login() {
                 onChange={handleChange}
                 type={showPassword ? "text" : "password"}
                 name="password"
-                placeholder="Enter your password..."
+                placeholder="Enter Password..."
                 value={loginInfo.password}
               className="w-full p-2 text-gray-800 bg-transparent border-none focus:outline-none focus:ring-0 focus:border-none focus:placeholder-transparent"
 

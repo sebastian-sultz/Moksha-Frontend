@@ -3,7 +3,7 @@ import QuizImg from "../assets/Images/Quiz.png";
 const Quiz = () => {
   return (
     <div className="h-screen bg-bgcolor">
-      <div className="text-gray-500 max-w-md mx-auto px-10 overflow-hidden md:max-w-4xl lg:max-w-6xl">
+      <div className="text-gray-500 max-w-md mx-auto px-4 overflow-hidden md:max-w-4xl lg:max-w-6xl">
         <div>
           <div className="pt-2 text-center tracking-wide leading-snug text-4xl font-libre text-gray-700 md:text-4xl md:leading-normal lg:text-5xl lg:leading-normal">
             Quiz
@@ -16,7 +16,7 @@ const Quiz = () => {
                 alt="Moksha"
               />
             </div>
-            <div className="px-10 text-justify md:text-left lg:max-w-2xl">
+            <div className="px-1 text-justify md:text-left lg:max-w-2xl">
               <div className="pt-6 tracking-wide leading-snug text-base font-libre text-gray-700 md:pt-10 md:text-lg md:leading-normal md:text-left lg:text-xl lg:leading-normal">
                 As Albus Dumbledore said: "Happiness can be found even in the
                 darkest of times, if one only remembers to turn on the light."
