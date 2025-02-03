@@ -42,7 +42,7 @@ const FeelGood = () => {
   useEffect(() => {
     const fetchTracks = async () => {
       try {
-        const { data } = await axios.get('http://localhost:8080/api/music');
+        const { data } = await axios.get('http://13.233.79.254:8080/api/music');
         setTracks(data);
       } catch (error) {
         console.error('Error fetching tracks:', error);
