@@ -31,7 +31,7 @@ function Login() {
             return handleError('email and password are required')
         }
         try {
-            const url = `http://localhost:8080/auth/login`;
+            const url = `http://13.233.79.254:8080/auth/login`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
