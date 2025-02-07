@@ -6,7 +6,7 @@ import { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import { FiChevronLeft, FiChevronRight, FiPlay, FiPause } from 'react-icons/fi';
 import { motion, AnimatePresence } from 'framer-motion';
-
+import { BASE_URL } from "../constants/constants";
 const FeelGood = () => {
 
   const quotes = [
@@ -42,7 +42,7 @@ const FeelGood = () => {
   useEffect(() => {
     const fetchTracks = async () => {
       try {
-        const { data } = await axios.get('http://13.233.79.254/api/api/music');
+        const { data } = await axios.get(`${BASE_URL}/api/api/music`);
         setTracks(data);
       } catch (error) {
         console.error('Error fetching tracks:', error);
