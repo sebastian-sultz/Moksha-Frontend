@@ -27,7 +27,7 @@ function Signup() {
             return handleError('name, email and password are required')
         }
         try {
-            const url = `${BASE_URL}/api/auth/signup`;
+            const url = `${BASE_URL}/auth/signup`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
