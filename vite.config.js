@@ -22,6 +22,14 @@ export default defineConfig({
       }
     },
     chunkSizeWarningLimit: 1000 // Optional: Increase if needed
+  },
+  optimizeDeps: {
+    include: [
+      'react',
+      'react-dom'
+      // Specific entry
+    ],
+    force: true // Reset cache
   }
 });
 
