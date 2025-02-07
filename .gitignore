@@ -10,7 +10,7 @@ lerna-debug.log*
 node_modules/
 feelgood2.jsx
 quiz2.jsx
-dist/*
+dist/
 *.local
 
 # Editor directories and files
