@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { fetchQuestions, submitQuizAnswers } from '../../services/api';
-import QuizImg from "../assets/Images/Quiz.png";
+
 
 const Quiz = () => {
   const navigate = useNavigate();
@@ -123,7 +123,7 @@ const Quiz = () => {
             <div className="md:shrink-0 md:content-center">
               <img
                 className="hidden mx-auto h-72 w-72 rounded-2xl object-cover opacity-70 md:block md:h-72 md:w-72 lg:h-96 lg:w-96"
-                src={QuizImg}
+                src="https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,dpr_auto/v1738956464/Quiz_jl1jk2.png"
                 alt="Quiz"
               />
             </div>

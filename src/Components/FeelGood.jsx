@@ -131,25 +131,6 @@ const FeelGood = () => {
       </div>
 
 
-
-
-      {/* <div className="justify-start ps-5">
-                    <BsFillMusicPlayerFill className="h-10 w-10 fill-prim" />
-
-                </div>
-                <div className="flex w-full justify-evenly ">
-
-                    <FaPlayCircle className="h-10 w-10 fill-prim" />
-                    <FaPlayCircle className="h-10 w-10 fill-prim" />
-                    <FaPlayCircle className="h-10 w-10 fill-prim" />
-                    <FaPlayCircle className="h-10 w-10 fill-prim" />
-                    <FaPlayCircle className="h-10 w-10 fill-prim" />
-                    <FaPlayCircle className="h-10 w-10 fill-prim" />
-
-
-                </div> */}
-
-
 <div className="w-full py-8 px-4">
   <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4">
   

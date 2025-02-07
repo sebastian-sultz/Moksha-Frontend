@@ -4,7 +4,7 @@ import { handleError, handleSuccess } from '../utils';
 import { useUser } from '../UserContext';
 import { FaUser } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import Logo from '../assets/Images/Logo2.png'
+
 import { IoMdCall } from "react-icons/io";
 const HeaderTop = () => {
 
@@ -29,7 +29,7 @@ const HeaderTop = () => {
     
       <div className='flex items-center'>
         <Link to={"/home"} className='flex items-center'>
-          <img className="h-12 md:h-14 p-1" src={Logo} alt="Logo" />
+          <img className="h-12 md:h-14 p-1" src="https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,dpr_auto/v1738956464/Logo2_qio7bh.png" alt="Logo" />
           <p className='font-libre text-xl ml-2 mt-2 hidden md:block'>Moksha</p>
         </Link>
       </div>

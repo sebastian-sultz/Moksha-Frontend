@@ -1,4 +1,4 @@
-import LOGO from "../assets/Images/Logo2.png";
+
 import { SiQuizlet } from "react-icons/si";
 import { Link } from "react-router-dom";
 import { useUser } from "../UserContext";
@@ -28,7 +28,7 @@ const FindingHelp = () => {
       </p>
 
       <div className="flex justify-center h-56 opacity-50">
-        <img src={LOGO} />
+        <img src="https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,dpr_auto/v1738956464/Logo2_qio7bh.png"/>
       </div>
       {loggedInUser ? (
         <Link to={"/quiz"}>
