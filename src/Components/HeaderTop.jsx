@@ -1,6 +1,6 @@
 
 import { useNavigate } from 'react-router-dom';
-import { handleError, handleSuccess } from '../utils';
+import { handleSuccess } from '../utils';
 import { useUser } from '../UserContext';
 import { FaUser } from "react-icons/fa";
 import { Link } from 'react-router-dom';

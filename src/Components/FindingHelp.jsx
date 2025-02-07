@@ -3,7 +3,7 @@ import { SiQuizlet } from "react-icons/si";
 import { Link } from "react-router-dom";
 import { useUser } from "../UserContext";
 const FindingHelp = () => {
-  const { loggedInUser, setLoggedInUser } = useUser();
+  const { loggedInUser} = useUser();
 
   return (
     <div>

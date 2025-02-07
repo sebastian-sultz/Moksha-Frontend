@@ -2,7 +2,7 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './App.css';
 import './index.css'
-import 'remixicon/fonts/remixicon.css';
+
 import 'react-toastify/ReactToastify.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Quiz from './Components/Quiz.jsx'
