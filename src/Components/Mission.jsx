@@ -8,7 +8,7 @@ const Mission = () => {
       </div>
       <div className="md:flex md:justify-between md:py-5">
         <div className="md:shrink-0 md:content-center">
-          <img
+          <img height="auto" width="auto"
             className="mx-auto h-72 w-72 rounded-2xl object-cover opacity-70 md:h-72 md:w-72 lg:h-96 lg:w-96"
             src="https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,dpr_auto/v1738956464/About_fjbp7q.png"
             alt="Moksha"

@@ -27,8 +27,9 @@ const FindingHelp = () => {
         </p>
       </p>
 
-      <div className="flex justify-center h-56 opacity-50">
-        <img src="https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,dpr_auto/v1738956464/Logo2_qio7bh.png"/>
+      <div className="flex justify-center opacity-50">
+        <img 
+width="265" height="301" src="https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,dpr_auto/v1738956464/Logo2_qio7bh.png"/>
       </div>
       {loggedInUser ? (
         <Link to={"/quiz"}>

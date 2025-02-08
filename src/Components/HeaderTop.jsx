@@ -29,7 +29,7 @@ const HeaderTop = () => {
     
       <div className='flex items-center'>
         <Link to={"/home"} className='flex items-center'>
-          <img className="h-12 md:h-14 p-1" src="https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,dpr_auto/v1738956464/Logo2_qio7bh.png" alt="Logo" />
+          <img width="50" height="50" className="p-1" src="https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,dpr_auto/v1738956464/Logo2_qio7bh.png" alt="Logo" />
           <p className='font-libre text-xl ml-2 mt-2 hidden md:block'>Moksha</p>
         </Link>
       </div>
