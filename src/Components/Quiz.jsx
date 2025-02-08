@@ -97,7 +97,7 @@ const Quiz = () => {
             </p>
             <div className="flex gap-4 justify-end">
               <button
-                onClick={() => window.location.href = 'https://procto-website.com'}
+                onClick={() => window.location.href = 'https://www.practo.com/'}
                 className="px-6 py-2 bg-prim text-white rounded-lg hover:bg-sec transition-colors"
               >
                 Find Professional Help
