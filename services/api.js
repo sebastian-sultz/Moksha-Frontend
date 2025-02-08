@@ -1,7 +1,7 @@
 import axios from 'axios';
-
+import { BASE_URL } from '../src/constants/constants';
 const api = axios.create({
-  baseURL: 'http://13.233.79.254/api/api/quiz',
+  baseURL: `${BASE_URL}/api/quiz`,
 });
 
 export const fetchQuestions = () => api.get('/questions');
