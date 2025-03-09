@@ -1,4 +1,4 @@
-const BASE_URL = "https://13.203.185.187/api";
+const BASE_URL = "https://moksha-backend-vert.vercel.app/api";
 
 
 export { BASE_URL };
